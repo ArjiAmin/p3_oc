@@ -30,6 +30,7 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -100,6 +101,11 @@ body {
 
     .cta-btn {
         @extend .cta-button;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+            opacity: 0.6;
+        }
     }
 }
 

@@ -12,7 +12,7 @@ $primary-gradient: linear-gradient(360deg, #9356DC 0%, #FF79DA 100%);
 
 @font-face {
   font-family: "Shrikhand";
-  src: url(/assets/fonts/Shrikhand-Regular.ttf) format("TrueType");
+  src: url(../../assets/fonts/Shrikhand-Regular.ttf) format("TrueType");
 }
 
 html {
@@ -56,7 +56,7 @@ header {
 }
 
 .hero {
-  background: url('/assets/images/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg') no-repeat center center/cover;
+  background: url('../../assets/images/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg') no-repeat center center/cover;
   height: 200px;
   display: flex;
   align-items: flex-end;
